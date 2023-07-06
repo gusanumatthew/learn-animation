@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:learn_animation/examples/example_1.dart';
+import 'package:learn_animation/examples/example_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      home: const Example1(),
+      home: const Example2(),
     );
   }
 }
